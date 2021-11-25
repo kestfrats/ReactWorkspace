@@ -1,8 +1,8 @@
 import ExpenseDate from './ExpenseDate';
-import Card from './Card';
+import Card from '../UI/Card';
 import './ExpenseItem.css';
 
-function ExpenseItem(props) {
+const ExpenseItem = props => {
   /* Dummy Data */
   /*
 	const expenseDate = new Date(2021, 2, 28);
@@ -19,6 +19,6 @@ function ExpenseItem(props) {
       </div>
     </Card>
   );
-}
+};
 
 export default ExpenseItem;
