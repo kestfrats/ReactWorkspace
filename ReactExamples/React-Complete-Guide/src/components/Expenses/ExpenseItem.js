@@ -1,15 +1,10 @@
+import React from 'react';
+
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
 
 const ExpenseItem = props => {
-  /* Dummy Data */
-  /*
-	const expenseDate = new Date(2021, 2, 28);
-	const expenseTitle = "Car Insurance";
-	const expenseAmount = 294.67;
-	*/
-
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
